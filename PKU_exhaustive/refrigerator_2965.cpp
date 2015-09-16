@@ -98,6 +98,7 @@ int main(int argc, char const *argv[])
 	j = m;
 	k = 0;
 	count = 0;
+	//printf("j:%d\n", j);
 	while(j)
 	{
 		if(j & 1)//turn when bit of j is equal 1
